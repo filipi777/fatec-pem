@@ -7,3 +7,5 @@ Estrutura básica de loops
 ### Aula 02
 Matrizes e vetores
 
+### Aula 03
+Funções e Procedimentos
