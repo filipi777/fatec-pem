@@ -12,11 +12,23 @@ int soma(int a, int b)
 
 float potenciacao(float base, int expoente)
 {
-    int i;
+    int i, moduloExpoente;
     float calculo = 1;
-    for(i=1; i<=expoente; i++)
+    
+    moduloExpoente = expoente;
+    if(expoente < 0)
+    {
+        moduloExpoente = -expoente;
+    }
+    
+    for(i=1; i<=moduloExpoente; i++)
     {
         calculo = calculo * base;
+    }
+    
+    if(expoente < 0)
+    {
+        return 1/calculo;
     }
     return calculo;
 }
