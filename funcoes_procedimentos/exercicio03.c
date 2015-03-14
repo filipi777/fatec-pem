@@ -57,8 +57,6 @@ void multiplicacaoMatriz(int X, int Y, int Z, int A[X][Y], int B[Y][Z], int RES[
     }
 }
 
-embucetamentoEncaralhado
-
 int main()
 {
     
