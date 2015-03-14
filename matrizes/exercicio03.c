@@ -1,6 +1,6 @@
 
 /*
- * Crie programas C para:
+ * Crie programas C para: 
  * 3) Ler 2 matrizes 2x3 e 3x4 e calcular a multiplicação delas. 
  */
 
